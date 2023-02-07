@@ -1,0 +1,80 @@
+#bolo-photo{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #000; */
+    margin-top: 50px;
+    margin: 50px auto;
+}
+#panda-final{
+    width: 95%;
+    display: flex;
+    margin: auto;
+}
+#panda1-box{
+    width: 350px;
+    height:400px;
+    /* margin: auto; */
+    /* border: 1px solid green; */
+    background-color: #fff;
+    /* margin-left: 15px; */
+    margin: auto;
+    text-transform: capitalize;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+#panda1-box h3{
+    margin-left: 12px;
+    font-size: 20px;
+    padding: 10px 0px;
+}
+#panda1-box h4{
+    font-size: 22px;
+    margin-left: 12px;
+}
+#panda-line{
+    width: 320px;
+    height: 35%;
+    /* border: 1px solid #000; */
+    margin:20px auto;
+    display: flex;
+}
+#panda-line p{
+    margin-left: 12px;
+    font-size: 14px;
+}
+#one{
+    width: 50%;
+    height: 100%;
+    /* border: 1px solid blue; */
+    margin-left: 2.5px;
+}
+#one img{
+    width:10px;
+    /* height: px; */
+}
+#one p{
+    font-weight:bold;
+    font-size: 13px;
+}
+#one a img{
+    width: 100%;
+}
+#big-last{
+    width: 300px;
+    /* border: 1px solid #000; */
+    margin:20px 0px;
+}
+#big-last img{
+    width: 100%;
+    margin-left:25px;
+}
+.see-more{
+    margin-left: 12px;
+}
+.see-more a {
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+}
+.see-more a:hover{
+    border-bottom: 1px solid black;
+}

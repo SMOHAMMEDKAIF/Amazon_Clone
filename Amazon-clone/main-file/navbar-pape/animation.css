@@ -1,0 +1,36 @@
+#animate{
+    width: 100%;
+    height: 300px;
+    /* border: 1px solid #000; */
+    margin-top: 50px;
+}
+
+#actuall-size{
+    width: 98%;
+    height: 280px;
+    /* border: 1px solid #000; */
+    position: relative;
+    margin: auto;
+}
+
+.container{
+    width: 100%;
+    height: 280px;
+    border: 1px solid burlywood;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-image: url("images/44086b1ac4ca2813.webp");
+    background-size: 100% 100%;
+    box-shadow: 1px 2px 12px 5px white;
+    animation: slidebom 9s infinite linear;
+}
+
+@keyframes slidebom{
+    0%{background-image: url("images/474c69a2c8f12e5d.webp");}
+    50%{background-image: url("images/a3573f74ec1e7359.webp");}
+    35%{background-image: url("images/4e4ae20bb304952c.webp");}
+    100%{background-image: url("images/75a15c3e19c3f7de.webp");}
+
+}

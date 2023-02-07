@@ -1,0 +1,30 @@
+#container-slider{
+    width: 100%;
+    height: auto;
+    /* border: 1px solid #000; */
+    position: relative;
+}
+#images img{
+    width: 100%;
+}
+#images{
+    position: relative;
+}
+#buton{
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 15%;
+    justify-content: space-between;
+}
+#buton i{
+    font-size: 55px;
+    color: #fff;
+}
+#buton i:hover{
+    cursor: pointer;
+    color: aliceblue;
+}
+.total-images{
+    display: none;
+}
